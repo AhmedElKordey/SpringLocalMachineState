@@ -15,7 +15,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 public class EmployeeData implements ProcessData {
-	private String employeeName;
+	private EmployeeBasicInfo employeeBasicInfo;
 	private ProcessEvent event;
 	private UUID employeeId;
 
